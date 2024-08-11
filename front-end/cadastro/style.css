@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100..900&family=Kreon:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCFAFB;
+    display: flex; 
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+}
+
+#welcome {
+    width: 498px;
+    height: 583px;
+}
+
+.direita {
+    background-color: #92E3A9;
+    width: 50%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size:38px;
+  color: #FCFAFB;
+  padding-top:140px;
+  padding-bottom:30px;
+}
+
+.informacoes{
+    width:60%;
+    margin-bottom:50px;
+}
+
+.botao{
+    width:35%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #FCFAFB;
+    background-color: #1A977E;
+    border:none;
+    border-radius: 40px;
+    height:35px;
+    font-size:23px;
+    margin-bottom: 10px;
+}
+.msg-login{
+    color:black;
+    font-size:12px;
+    margin-top: 12px;
+}
